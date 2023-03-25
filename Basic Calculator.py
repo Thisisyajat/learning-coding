@@ -6,25 +6,27 @@ print("Currenly, I support only two numbers per operation.\nIf you want to perfo
 num1 = float(input("Enter the first number. ---> "))
 print("Which operation do you want to perform? Type any one of the following:\n1. Type 'Add' or '+'\nType 'Subtract' or '-'\n3. Type 'Multiply' or '*'\n4. Type 'Divide' or '/'\n")
 op = input("Your input ---> ")
-num2 = float(input("Enter the second number. ---> "))
 
 #Conditions
-
 if op.lower() == "add" or op = "+":
   print(f"Answer to the expression {num1} + {num2} is {add(num1,num2)}\n")
   print("Rerun the program to continue.")
 
-if op.lower() == "subtract" or op = "-":
+elif op.lower() == "subtract" or op = "-":
   print(f"Answer to the expression {num1} - {num2} is {subtract(num1,num2)}\n")
   print("Rerun the program to continue.")
 
-if op.lower() == "multiply" or op = "*":
+elif op.lower() == "multiply" or op = "*":
   print(f"Answer to the expression {num1} * {num2} is {multiply(num1,num2)}\n")
   print("Rerun the program to continue.")
 
-if op.lower() == "divide" or op = "/":
+elif op.lower() == "divide" or op = "/":
   print(f"Answer to the expression {num1} / {num2} is {divide(num1,num2)}\n")
   print("Rerun the program to continue.")
+else:
+  print("You have entered an invalid operator. Please restart the program and try again.")
+
+num2 = float(input("Enter the second number. ---> "))
 
 #Calculator functions
 def add(num1,num2):
