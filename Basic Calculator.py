@@ -8,19 +8,19 @@ print("Which operation do you want to perform? Type any one of the following:\n1
 op = input("Your input ---> ")
 
 #Conditions
-if op.lower() == "add" or op = "+":
+if op.lower() == "add" or op == "+":
   print(f"Answer to the expression {num1} + {num2} is {add(num1,num2)}\n")
   print("Rerun the program to continue.")
 
-elif op.lower() == "subtract" or op = "-":
+elif op.lower() == "subtract" or op == "-":
   print(f"Answer to the expression {num1} - {num2} is {subtract(num1,num2)}\n")
   print("Rerun the program to continue.")
 
-elif op.lower() == "multiply" or op = "*":
+elif op.lower() == "multiply" or op == "*":
   print(f"Answer to the expression {num1} * {num2} is {multiply(num1,num2)}\n")
   print("Rerun the program to continue.")
 
-elif op.lower() == "divide" or op = "/":
+elif op.lower() == "divide" or op == "/":
   print(f"Answer to the expression {num1} / {num2} is {divide(num1,num2)}\n")
   print("Rerun the program to continue.")
 else:
