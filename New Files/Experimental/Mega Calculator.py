@@ -8,14 +8,14 @@ print("This program supports operations on only two numbers at a time.")
 print("")
 mode = input(
     """Select the arithmetic operation mode:
-        1. Addition (type: add)
-        2. Subtraction (type: sub)
-        3. Multiplication (type: multiply)
-        4. Division (type: div)
+        1. Addition (type: add or +)
+        2. Subtraction (type: sub or -)
+        3. Multiplication (type: multiply or *)
+        4. Division (type: div or /)
         5. Floor (type: floor)
-        6. Modulo (type: mod)
-        7. Factorial (type: fact)
-        8. Power of a number (type : pow)
+        6. Modulo (type: mod or %)
+        7. Factorial (type: fact or !)
+        8. Power of a number (type : pow or **)
         ------------------------------------------
         9. Other applications (BETA) (type: other)
         ------------------------------------------
@@ -24,37 +24,37 @@ mode = input(
 print("")
 print("")
 
-if mode == "add":
+if mode == "add" or '+':
     a = float(input("Enter the first number --> "))
     b = float(input("Enter the second number --> "))
-    print("Addition of the given numbers is:",a + b)
+    print(f("{a} + {b} = {a + b}"))
     print("Program ran successfully. Restart to use again.")
-elif mode == "sub":
+elif mode == "sub" or '-':
     a = float(input("Enter the first number --> "))
     b = float(input("Enter the second number --> "))
-    print("Subtraction of",b,"from",a,"is:",a - b)
+    print(f("{a} - {b} = {a - b}"))
     print("Program ran successfully. Restart to use again.")
-elif mode == "multiply":
+elif mode == "multiply" or '*':
     a = float(input("Enter the first number --> "))
     b = float(input("Enter the second number --> "))
-    print("Multiplication of the given numbers is:",a * b)
+    print(f("{a} * {b} = {a * b}"))
     print("Program ran successfully. Restart to use again.")
-elif mode == "div":
+elif mode == "div" or '/':
     a = float(input("Enter the first number --> "))
     b = float(input("Enter the second number --> "))
-    print("Division of",a,"by",b,"is:",a / b)
+    print(f("{a} / {b} = {a / b}"))
     print("Program ran successfully. Restart to use again.")
 elif mode == "floor":
     a = float(input("Enter the first number --> "))
     b = float(input("Enter the second number --> "))
     print("Floor of the given numbers is:",a // b)
     print("Program ran successfully. Restart to use again.")
-elif mode == "mod":
+elif mode == "mod" or '%':
     a = float(input("Enter the first number --> "))
     b = float(input("Enter the second number --> "))
     print("Modulo of the given numbers is:",a % b)
     print("Program ran successfully. Restart to use again.")
-elif mode == "fact":
+elif mode == "fact" or '!':
     n = int(input("Enter an integer --> "))
     a = n
     fact = 1
@@ -64,7 +64,7 @@ elif mode == "fact":
         n -= 1
     print("The factorial of",a,"is",fact,".")
     print("Program ran successfully. Restart to use again.")
-elif mode == "pow":
+elif mode == "pow" or '**':
     b = float(input("Enter the base number --> "))
     exp = float(input("Enter the exponent --> "))
     print(b,"^",exp," = ", b**exp)
