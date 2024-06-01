@@ -83,8 +83,8 @@ elif mode == "other":
             print("Number of multiples cannot be negative. Please rerun the program to continue.")
         else:
             m += 1
-            for i in range(1,m,1):
-                print(n,"X",i,"=",n*i)
+            for i in range(1, m, 1):
+                print(n, "X", i, "=", n * i)
                 print()
             print("Program ran successfully. Restart to use again.")
     
