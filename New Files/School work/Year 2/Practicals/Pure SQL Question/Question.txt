@@ -1,0 +1,7 @@
+Create a Student table and insert data. Implement the following SQL commands on the
+student table.
+    1. ALTER table add new attributes / modify data type / drop attribute.
+    2. UPDATE table to modify the data.
+    3. ORDER BY to display data in ascending/descending order.
+    4. DELETE to remove tuple(s).
+    5. GROUP BY and find the min, max, sum, count and average.
