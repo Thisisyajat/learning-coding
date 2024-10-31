@@ -15,3 +15,15 @@ This program prints the factorial of the number entered by the user, using 'recu
 ''')
 n = int(input("Enter the number for which the factorial is to be generated --> "))
 print(f'The factorial of {n} is --> {factorial(n)}')
+print("Program ran successfully. Exiting...")
+
+# Output
+'''
+
+This program prints the factorial of the number entered by the user, using 'recursion' method.
+
+
+Enter the number for which the factorial is to be generated --> 5
+The factorial of 5 is --> 120
+Program ran successfully. Exiting...
+'''

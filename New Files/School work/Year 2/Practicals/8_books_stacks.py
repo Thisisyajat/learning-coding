@@ -51,4 +51,82 @@ while condition:
             continue
         elif mode == 4:
             condition = False
-print('Exiting...')
+print('Program ran successfully. Exiting...')
+
+# Output
+'''
+        This program supports three functions for book management:
+            '1'. Push (book code, book title, and book price)
+            '2'. Pop (delete the latest entry)
+            '3'. Traverse (show all the entries stored)
+           To exit the program, type '4'. 
+           Only numeric characters allowed.
+
+           
+Please select your choice ==> 1
+
+Enter book code : 101
+Enter book title : The Alchemist
+Enter book price : Rs. 250
+
+Values pushed successfully.
+    
+            This program supports three functions for book management:
+                '1'. Push (book code, book title, and book price)
+                '2'. Pop (delete the latest entry)
+                '3'. Traverse (show all the entries stored)
+            To exit the program, type '4'. 
+            Only numeric characters allowed.
+
+Please select your choice ==> 1
+
+Enter book code : 102
+Enter book title : The Monk Who Sold His Ferrari
+Enter book price : Rs. 300
+
+Values pushed successfully.
+
+            This program supports three functions for book management:
+                '1'. Push (book code, book title, and book price)
+                '2'. Pop (delete the latest entry)
+                '3'. Traverse (show all the entries stored)
+            To exit the program, type '4'.
+            Only numeric characters allowed.
+
+Please select your choice ==> 3
+    
+    (102, 'The Monk Who Sold His Ferrari', 300.0)
+    (101, 'The Alchemist', 250.0)
+    
+                This program supports three functions for book management:
+                    '1'. Push (book code, book title, and book price)
+                    '2'. Pop (delete the latest entry)
+                    '3'. Traverse (show all the entries stored)
+                To exit the program, type '4'. 
+                Only numeric characters allowed.
+
+Please select your choice ==> 2
+Deleted the latest entry.
+    
+                This program supports three functions for book management:
+                    '1'. Push (book code, book title, and book price)
+                    '2'. Pop (delete the latest entry)
+                    '3'. Traverse (show all the entries stored)
+                To exit the program, type '4'. 
+                Only numeric characters allowed.
+
+Please select your choice ==> 3
+    
+        (101, 'The Alchemist', 250.0)
+        
+                    This program supports three functions for book management:
+                        '1'. Push (book code, book title, and book price)
+                        '2'. Pop (delete the latest entry)
+                        '3'. Traverse (show all the entries stored)
+                    To exit the program, type '4'. 
+                    Only numeric characters allowed.
+
+Please select your choice ==> 4
+
+Program ran successfully. Exiting...
+'''

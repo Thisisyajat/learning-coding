@@ -28,3 +28,17 @@ while mode:
             mode = False
             print('Exiting the program...')
 
+# Output
+'''
+
+This program prints the Fibonacci Sequence upto a number given by the user.
+
+Enter the number of the sequence elements to be printed : 10
+Sequence ==> 0 1 1 2 3 5 8 13 21 34
+Do you want to run the program again? Y/N : y
+Enter the number of the sequence elements to be printed : 15
+Sequence ==> 0 1 1 2 3 5 8 13 21 34 55 89 144 233 377
+Do you want to run the program again? Y/N : n
+Exiting the program...
+Program ran successfully. Exiting...
+'''

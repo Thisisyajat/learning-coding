@@ -50,4 +50,84 @@ while condition:
             continue
         elif mode == 4:
             condition = False
-print('Exiting...')
+print('Program ran successfully. Exiting...')
+
+# Output
+'''
+        This program supports three functions for employee management:
+            '1'. Push (employee code, employee title)
+            '2'. Pop (delete the latest entry)
+            '3'. Traverse (show all the entries stored)
+           To exit the program, type '4'. 
+           Only numeric characters allowed.
+
+
+Please select your choice ==> 1
+
+Enter employee code : 101
+Enter employee name : Yajat
+
+Values pushed successfully.
+    
+            This program supports three functions for employee management:
+                '1'. Push (employee code, employee title)
+                '2'. Pop (delete the latest entry)
+                '3'. Traverse (show all the entries stored)
+            To exit the program, type '4'. 
+            Only numeric characters allowed.
+
+
+Please select your choice ==> 1
+
+Enter employee code : 102
+Enter employee name : Gupta
+
+Values pushed successfully.
+        
+                This program supports three functions for employee management:
+                    '1'. Push (employee code, employee title)
+                    '2'. Pop (delete the latest entry)
+                    '3'. Traverse (show all the entries stored)
+                To exit the program, type '4'. 
+                Only numeric characters allowed.
+
+
+Please select your choice ==> 3
+    
+    (102, 'Gupta')
+    (101, 'Yajat')
+        
+                    This program supports three functions for employee management:
+                        '1'. Push (employee code, employee title)
+                        '2'. Pop (delete the latest entry)
+                        '3'. Traverse (show all the entries stored)
+                    To exit the program, type '4'. 
+                    Only numeric characters allowed.
+
+
+Please select your choice ==> 2
+Deleted the latest entry.
+
+                        This program supports three functions for employee management:
+                            '1'. Push (employee code, employee title)
+                            '2'. Pop (delete the latest entry)
+                            '3'. Traverse (show all the entries stored)
+                        To exit the program, type '4'. 
+                        Only numeric characters allowed.
+
+
+Please select your choice ==> 3
+    
+        (101, 'Yajat')
+            
+                        This program supports three functions for employee management:
+                            '1'. Push (employee code, employee title)
+                            '2'. Pop (delete the latest entry)
+                            '3'. Traverse (show all the entries stored)
+                        To exit the program, type '4'. 
+                        Only numeric characters allowed.
+
+
+Please select your choice ==> 4
+Program ran successfully. Exiting...
+'''

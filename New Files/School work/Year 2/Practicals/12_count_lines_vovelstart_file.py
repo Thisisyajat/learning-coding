@@ -14,3 +14,10 @@ with open(r'article.txt','r') as myfile:
             count += 1
     print(f'\nTotal number of lines starting with a vovel: {count}')
 print('Program ran successfully. Exiting...')
+
+# Output
+'''
+
+Total number of lines starting with a vovel: 2
+Program ran successfully. Exiting...
+'''

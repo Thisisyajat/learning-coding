@@ -12,3 +12,20 @@ while mode:
         print('Program exiting...')
     else:
         print('Invalid choice. Please try again.\n')
+
+# Output
+'''
+This program throws a dice, and returns the number on it.
+Do you want to throw a dice? y/n : y
+The number on the dice is ==> 4
+
+Do you want to throw a dice? y/n : y
+The number on the dice is ==> 1
+
+Do you want to throw a dice? y/n : y
+The number on the dice is ==> 2
+
+Do you want to throw a dice? y/n : n
+
+Program exiting...
+'''

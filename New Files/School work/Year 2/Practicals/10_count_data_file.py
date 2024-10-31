@@ -37,3 +37,18 @@ with open(r'article.txt','r') as myfile:
 
 ''')
 print('Program ran successfully. Exiting...')
+
+# Output
+'''
+          Analysis:
+            1. Length of text       : 343
+            2. Alphabets            : 277
+            3. Upper-case alphabets : 4
+            4. Lower-case alphabets : 273
+            5. Digits               : 4
+            6. Spaces               : 53
+            7. Special characters   : 9
+
+
+Program ran successfully. Exiting...
+'''

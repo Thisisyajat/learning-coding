@@ -8,3 +8,9 @@ with open(r'article.txt','r') as myfile:
             count += 1
     print(f'\nTotal number of alphabets in the file: {count}')
 print('Program ran successfully. Exiting...')
+
+# Output
+'''
+Total number of alphabets in the file: 100
+Program ran successfully. Exiting...
+'''
