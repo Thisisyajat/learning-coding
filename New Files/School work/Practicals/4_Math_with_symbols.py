@@ -29,19 +29,3 @@ elif mode == '/':
     print('Program ran successfully. Exiting...')
 else:
     print('Invalid operator. Please rerun the program to continue...')
-
-# Output
-'''
-
-Welcome to the basic calculator program.
-This program can perform addition (+), subtraction (-), multiplication (*) and division (/) on two numbers entered by the user.
-
-
-Enter 1st number --> 2
-Enter the operator from the following options : | + | - | * | / |    --> +
-Enter 2nd number --> 3
-
-2.0 + 3.0 = 5.0
-
-Program ran successfully. Exiting...
-'''
