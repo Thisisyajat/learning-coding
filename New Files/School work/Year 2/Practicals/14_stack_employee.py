@@ -17,9 +17,26 @@ def pop():
 
 def traverse():
     print()
-    for i in range(len(employees)-1, -1, -1):
-        print(employees[i])
+    if isEmpty(employees) == True:
+        print('Stack is empty.')
+    else:
+        print(f'{employees[-1]}     <-- Top')
+        for i in range(len(employees)-2, -1, -1):
+            print(f'{employees[i]}')
+    return
 
+def peek():
+    if isEmpty(employees) == True:
+        print('Stack is empty.')
+    else:
+        print(employees[-1])
+    return
+
+def isEmpty(val):
+    if val == []:
+        return True
+    else:
+        return False
 employees = []
 condition = True
 while condition:
@@ -29,7 +46,8 @@ while condition:
             '1'. Push (employee code, employee title)
             '2'. Pop (delete the latest entry)
             '3'. Traverse (show all the entries stored)
-           To exit the program, type '4'. 
+            '4'. Peek (show the latest entry)
+           To exit the program, type '5'. 
            Only numeric characters allowed.
 
  '''
@@ -49,6 +67,9 @@ while condition:
             traverse()
             continue
         elif mode == 4:
+            peek()
+            continue
+        elif mode == 5:
             condition = False
 print('Program ran successfully. Exiting...')
 
