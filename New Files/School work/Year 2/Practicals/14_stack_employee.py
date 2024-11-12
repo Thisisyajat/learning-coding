@@ -3,7 +3,7 @@
 
 def push():
     code = int(input('\nEnter employee code : '))
-    title = input('Enter employee name : ')
+    name = input('Enter employee name : ')
     employee = (code,title)
     employees.append(employee)
     print('\nValues pushed successfully.')
@@ -42,8 +42,8 @@ condition = True
 while condition:
     print(
         '''
-        This program supports three functions for employee management:
-            '1'. Push (employee code, employee title)
+        This program supports four functions for employee management:
+            '1'. Push (employee code, employee name)
             '2'. Pop (delete the latest entry)
             '3'. Traverse (show all the entries stored)
             '4'. Peek (show the latest entry)
@@ -53,7 +53,7 @@ while condition:
  '''
     )
     mode = int(input('Please select your choice ==> '))
-    if mode not in [1,2,3,4]:
+    if mode not in [1,2,3,4,5]:
         print('\nInvalid choice. Please try again.')
         continue
     else:
