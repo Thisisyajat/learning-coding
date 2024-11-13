@@ -8,9 +8,9 @@ def run():
         c = db.cursor()
         sql = 'SELECT * FROM employee;'
         c.execute(sql)
-        countrow = c.rowcount
-        print('Number of rows: ',countrow)
         data = c.fetchall()
+        countrow = len(data)
+        print('Number of rows: ',countrow)
         print('+----------------------------------------+')
         print('| ecode | ename | gender | grade | gross |')
         print('+----------------------------------------+')
