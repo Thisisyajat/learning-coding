@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 int main(){
-    int i, j, n, temp, pos;
+    int i, j, n, temp, swapped;
     char order;
     printf(("Enter number of elements --> "));
     if (scanf("%d", &n), n < 1){
@@ -21,25 +21,30 @@ int main(){
     case 'a':
         // Ascending order
         for (i = 0; i < n-1; i++) {
+            swapped = 0;
             for (j = 0; j < n-i-1; j++) {
                 if (arr[j] > arr[j+1]) {
                     temp = arr[j];
                     arr[j] = arr[j+1];
                     arr[j+1] = temp;
+                    swapped = 1;
                 }
             }
+            if (!swapped) break;
         }
         break;
     case 'd':
         // Descending order
         for (i = 0; i < n-1; i++) {
+            swapped = 0;
             for (j = 0; j < n-i-1; j++) {
                 if (arr[j] < arr[j+1]) {
                     temp = arr[j];
                     arr[j] = arr[j+1];
                     arr[j+1] = temp;
+                    swapped = 1;
                 }
-            }
+            } if (!swapped) break;
         }
         break;
     default:
