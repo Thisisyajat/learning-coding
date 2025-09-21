@@ -1,7 +1,9 @@
 #include<stdio.h>
 int main(){
-    int result, a=60, b=13;
-    float c;
-    result = a +10 * b -(6-3) % 2/-3;
-    return 0;
+    float ans = 0, val;
+    while (scanf("%[^'-1']", &val)) {
+        ans += val;
+        printf("%g", ans);
+    } 
+        
 }
