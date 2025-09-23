@@ -7,8 +7,8 @@ int main(){
     gets(str);
     // toggle case
     for (int i = 0; str[i] != '\0'; i++) {
-        if (str[i] > 90 && str[i] < 97) printf("%c", str[i]);
-        else if (str[i] > 96 && str[i] < 123){
+        //if (str[i] > 90 && str[i] < 97) printf("%c", str[i]);
+        if (str[i] > 96 && str[i] < 123){
             str[i] -= 32;
             printf("%c", str[i]);
         }

@@ -3,7 +3,7 @@
 int main()
 {
     const int max = 100;
-    char str[max], str2[max], temp;
+    char str[max], temp;
     int i = 0, count = 0, palindrome = 1;
     printf("Enter your string below:\n");
     gets(str);
